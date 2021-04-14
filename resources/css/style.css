@@ -30,7 +30,7 @@ header h1 {
 
 }
 .container {
-    width: 63%;
+    width: 100%;
     margin: 0 auto;
 
     display: grid;
