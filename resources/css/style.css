@@ -2,6 +2,7 @@ body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -12,6 +13,11 @@ h2 {
     font-size: 32px;
     font-weight: bold;
     color: white;
+    margin-bottom: 1.5rem;
+}
+
+h3, figure, p {
+    margin-bottom: 1rem;
 }
 
 header h1 {
@@ -20,16 +26,24 @@ header h1 {
     color: khaki;
     text-align: center;
     background-image: url("../img/pattern.jpg");
+    margin: 3rem 0;
+
 }
 .container {
-    width: 90%;
-    margin: 2rem auto;
+    width: 63%;
+    margin: 0 auto;
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% repeat(3, 1fr);
+    grid-template-rows: 15% repeat(3, 1fr);
     grid-row-gap: 1rem; 
 }
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
 /* green section */
 .green {
     grid-row: 2/3;
